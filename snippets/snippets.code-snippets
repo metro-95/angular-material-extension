@@ -1,0 +1,83 @@
+{
+    "Angular Material 11 Input Field": {
+        "prefix": "am-input",
+        "body": [
+            "<mat-form-field>",
+                "<mat-label>Input</mat-label>",
+                "<input matInput>",
+            "</mat-form-field>"
+        ],
+        "description": "Generates Angular Material Input Form Field"
+    },
+
+    "Angular Material 11 Select Option": {
+        "prefix": "am-select",
+        "body": [
+            "<mat-form-field>",
+           "<mat-label>Select</mat-label>",
+           "<mat-select>",
+              "<mat-option value=\"option\">Option</mat-option>",
+            "</mat-select>",
+          "</mat-form-field>"
+        ],
+        "description": "Generates Angular Material Select Option"
+    },
+
+    "Angular Material 11 Text Area": {
+        "prefix": "am-textarea",
+        "body": [
+            "<mat-form-field>",
+                "<mat-label>Text Area</mat-label>",
+                "<textarea matInput></textarea>",
+            "</mat-form-field>"
+        ],
+        "description": "Generates Angular Material Text Area"
+    },
+
+    "Angular Material 11 Checkbox": {
+        "prefix": "am-checkbox",
+        "body": [
+            "<mat-checkbox>Check Me</mat-checkbox>"
+        ],
+        "description": "Generates Angular Material Checkbox"
+    },
+
+    "Angular Material 11 Radio Group": {
+        "prefix": "am-radio",
+        "body": [
+            "<label>Checkbox</label>",
+            "<mat-radio-group>",
+              "<mat-radio-button value=\"\"> </mat-radio-button>",
+              "<mat-radio-button value=\"\"> </mat-radio-button>",
+            "</mat-radio-group>"
+        ],
+        "description": "Generates Angular Material Radio Group"
+    },
+
+    "Angular Material 11 Icon": {
+        "prefix": "am-icon",
+        "body": [
+            "<mat-icon>favorite</mat-icon>"
+        ],
+        "description": "Generates Angular Material Icon"
+    },
+
+    "Angular Material 11 Table": {
+        "prefix": "am-table",
+        "body": [
+            "<table mat-table [dataSource]=\"dataSource\" class=\"mat-elevation-z8\">",
+                
+                "<ng-container matColumnDef=\"position\">",
+                    "<th mat-header-cell *matHeaderCellDef> No. </th>",
+                    "<td mat-cell *matCellDef=\"let element\"> {{element.position}} </td>",
+                "</ng-container>",
+                
+            "</table>",
+
+        ],
+        "description": "Generates Angular Material Table"
+    },
+
+
+
+}

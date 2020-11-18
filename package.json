@@ -1,0 +1,20 @@
+{
+    "name": "angular-material-snippet",
+    "displayName": "Angular Material 11.0.0 Snippets",
+    "description": "Various Angular Material Snippets Creator",
+    "version": "1.0.0",
+    "publisher": "Metro",
+    "icon": "angular.png",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "html",
+            "path": "./snippets/snippets.code-snippets"
+        }]
+    }
+}
