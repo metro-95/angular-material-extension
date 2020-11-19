@@ -34,6 +34,20 @@
         "description": "Generates Angular Material Text Area"
     },
 
+    "Angular Material 11 Datepicker": {
+        "prefix": "am-date",
+        "body": [
+            "<mat-form-field>",
+            "<mat-label>Choose a date</mat-label>",
+            "<input matInput [matDatepicker]=\"picker\">",
+            "<mat-datepicker-toggle matSuffix [for]=\"picker\"></mat-datepicker-toggle>",
+            "<mat-datepicker #picker></mat-datepicker>",
+            "</mat-form-field>"
+
+        ],
+        "description": "Generates Angular Material Datepicker"
+    },
+
     "Angular Material 11 Checkbox": {
         "prefix": "am-checkbox",
         "body": [
@@ -62,16 +76,89 @@
         "description": "Generates Angular Material Icon"
     },
 
+    "Angular Material 11 Button": {
+        "prefix": "am-button",
+        "body": [
+            "<button mat-button color=\"primary\">Primary</button>"
+        ],
+        "description": "Generates Angular Material Button"
+    },
+
+    "Angular Material 11 List": {
+        "prefix": "am-list",
+        "body": [
+            "<mat-list>",
+            "<mat-list-item> Item 1 </mat-list-item>",
+            "<mat-list-item> Item 2 </mat-list-item>",
+            "<mat-list-item> Item 3 </mat-list-item>",
+            "</mat-list>"
+        ],
+        "description": "Generates Angular Material List"
+    },
+
+
+    "Angular Material 11 Tab": {
+        "prefix": "am-tab",
+        "body": [
+            "<mat-tab-group>",
+            "<mat-tab label=\"First\"> Content 1 </mat-tab>",
+            "<mat-tab label=\"Second\"> Content 2 </mat-tab>",
+            "<mat-tab label=\"Third\"> Content 3 </mat-tab>",
+            "</mat-tab-group>"
+        ],
+        "description": "Generates Angular Material Tab"
+    },
+
+    "Angular Material 11 Card": {
+        "prefix": "am-card",
+        "body": [
+           "<mat-card>",
+           "",
+           "<mat-card-header>",
+           "<mat-card-title>Shiba Inu</mat-card-title>",
+           "<mat-card-subtitle>Dog Breed</mat-card-subtitle>",
+           "</mat-card-header>",
+           "",
+           "<mat-card-content>",
+           " ",
+           "</mat-card-content>",
+           "",
+           "<mat-card-actions>",
+           "<button mat-button>LIKE</button>",
+           "<button mat-button>SHARE</button>",
+           "</mat-card-actions>",
+           "",
+           "</mat-card>",
+        ],
+        "description": "Generates Angular Material Card"
+    },
+
+
     "Angular Material 11 Table": {
         "prefix": "am-table",
         "body": [
             "<table mat-table [dataSource]=\"dataSource\" class=\"mat-elevation-z8\">",
-                
-                "<ng-container matColumnDef=\"position\">",
-                    "<th mat-header-cell *matHeaderCellDef> No. </th>",
-                    "<td mat-cell *matCellDef=\"let element\"> {{element.position}} </td>",
+                "",
+                "<ng-container matColumnDef=\"index\">",
+                "<th mat-header-cell *matHeaderCellDef> No. </th>",
+                    "<td mat-cell *matCellDef=\"let i = index;\"> {{ i+1 }} </td>",
                 "</ng-container>",
-                
+                "",
+                "<ng-container matColumnDef=\"name\">",
+                "<th mat-header-cell *matHeaderCellDef> No. </th>",
+                    "<td mat-cell *matCellDef=\"let element\"> {{ element.name }} </td>",
+                "</ng-container>",
+                "",
+                "<ng-container matColumnDef=\"name\">",
+                "<th mat-header-cell *matHeaderCellDef> No. </th>",
+                    "<td mat-cell *matCellDef=\"let element\"> {{ element.name }} </td>",
+                "</ng-container>",
+                "",
+                "<ng-container matColumnDef=\"name\">",
+                "<th mat-header-cell *matHeaderCellDef> No. </th>",
+                    "<td mat-cell *matCellDef=\"let element\"> {{ element.name }} </td>",
+                "</ng-container>",
+                "",
             "</table>",
 
         ],
