@@ -17,6 +17,12 @@ The Angular Material Design Snippets Extension include the following componets:
 8. Material List
 9. Material Tab
 10. Material Card
+11. Indeterminate Progress Bar
+12. Material Divider
+12. Material Slider
+13. Material Toolbar
+14. Material Slider
+15. Material Menu
 ## Requirements
 
 This extension require angular/material package which can be obtained from " ng add @angular/material "
@@ -25,7 +31,6 @@ This extension require angular/material package which can be obtained from " ng 
 ### 1.0.0
 
 Initial release of angular material design snippets prototype which contains basic components snippets
-
 
 
 ## How to use

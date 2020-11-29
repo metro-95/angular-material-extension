@@ -165,6 +165,72 @@
         "description": "Generates Angular Material Table"
     },
 
+    "Angular Material 11 Indeterminate Progress Bar": {
+        "prefix": "am-prog",
+        "body": [
+            "<mat-progress-bar mode=\"indeterminate\"></mat-progress-bar>",
+        
+        ],
+        "description": "Generates Angular Material Indeterminate Progress Bar"
+    },
+
+    "Angular Material 11 Divider": {
+        "prefix": "am-div",
+        "body": [
+            "<mat-divider></mat-divider>",
+        
+        ],
+        "description": "Generates Angular Material Divider"
+    },
+
+    
+    "Angular Material 11 Slider": {
+        "prefix": "am-slider",
+        "body": [
+            "<mat-slider min=\"1\" max=\"10\" step=\"1\" value=\"3\"></mat-slider>",
+        
+        ],
+        "description": "Generates Angular Material Slider"
+    },
+
+    "Angular Material 11 Toolbar": {
+        "prefix": "am-toolbar",
+        "body": [
+            "<mat-toolbar>",
+            "<span>Title goes here</span>",
+            "</mat-toolbar>"
+        
+        ],
+        "description": "Generates Angular Material Toolbar"
+    },
+
+    "Angular Material 11 Slide Toggle": {
+        "prefix": "am-slidetoggle",
+        "body": [
+            "<mat-slide-toggle>Slide me!</mat-slide-toggle>",
+           
+        
+        ],
+        "description": "Generates Angular Material Slide Toggle"
+    },
+
+    "Angular Material 11 Menu": {
+        "prefix": "am-menu",
+        "body": [
+            "<button mat-button [matMenuTriggerFor]=\"menu\">Menu</button>",
+            "<mat-menu #menu=\"matMenu\">",
+            "<button mat-menu-item>Item 1</button>",
+            "<button mat-menu-item>Item 2</button>",
+            "</mat-menu>"
+        
+        ],
+        "description": "Generates Angular Material Menu"
+    },
+  
+
+
+
+
 
 
 }
